@@ -9,6 +9,8 @@
 	<h2>Shellscripting</h2>
 	<h2>Git</h2>
 	<h2>Maven</h2>
+	<br>
+	<p>Next we are going to learn Jenkin, Ansible, AWS, Terraform, Doker, Kubernetes, CI/CD Pipleline</p>
 	<p>
 		It is now
 		<%= new java.util.Date() %></p>
