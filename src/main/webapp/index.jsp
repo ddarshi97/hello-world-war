@@ -1,14 +1,14 @@
 <html>
 <head>
-<title>Welcome to Netflix!</title>
+<title>Welcome to Darshan's Blog</title>
 </head>
 <body>
-	<h1>Please select the following categories!</h1>
-	<h2>1.Drama</h2>
-	<h2>2.Vengful</h2>
-	<h2>3.Horror</h2>
-	<h2>4.Anime</h2>
-	<h2>5.Comedy</h2>
+	<h1>Im learning Devops</h1>
+	<p>So far i have learnt</p>
+	<h2>Linux Basics</h2>
+	<h2>Shellscripting</h2>
+	<h2>Git</h2>
+	<h2>Maven</h2>
 	<p>
 		It is now
 		<%= new java.util.Date() %></p>
