@@ -15,6 +15,8 @@ pipeline {
       steps{
         sh 'curl -u ddarshi97@gmail.com:DevOps@979 -O https://ddarshi97.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/${BUILD_NUMBER}/hello-world-war-${BUILD_NUMBER}.war'
         sh 'sudo cp -R hello-world-war-${BUILD_NUMBER}.war /opt/tomcat/webapps/'
+        sh 'sudo sh /opt/tomcat/bin/shutdown.sh'
+        sh 'sleep 5'
         sh 'sudo sh /opt/tomcat/bin/startup.sh'
       }
     }
