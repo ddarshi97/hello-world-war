@@ -10,6 +10,7 @@ pipeline {
             echo "package build successfully and deployed"
       }
     }
+    stage ('deploy'){
     agent{label 'deploy'}
       steps{
         sh 'curl -u ddarshi97@gmail.com:DevOps@979 -O https://ddarshi97.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/${BUILD_NUMBER}/hello-world-war-${BUILD_NUMBER}.war'
