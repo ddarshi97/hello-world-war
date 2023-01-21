@@ -26,10 +26,10 @@
 		</plugins>
 	</build>
 	<distributionManagement>
-    			<repository>
-        			    <id>central</id>
-        			    <name>a0asqtl7jetoj-artifactory-primary-0-releases</name>
-        			    <url>https://ddarshi97.jfrog.io/artifactory/libs-release-local</url>
-    			</repository>
+    		<repository>
+        		<id>central</id>
+        		<name>a0o3takl3j0gh-artifactory-primary-0-releases</name>
+        		<url>https://ddarshi979.jfrog.io/artifactory/libs-release</url>
+    		</repository>
 	</distributionManagement>
 </project>
